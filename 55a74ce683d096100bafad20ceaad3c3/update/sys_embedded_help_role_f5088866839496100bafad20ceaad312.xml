@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1523132_claims_m.finance approver" name="x_1523132_claims_m.finance approver">7d080466839496100bafad20ceaad37a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 05:54:26</sys_created_on>
+        <sys_id>f5088866839496100bafad20ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7d080466839496100bafad20ceaad37a</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f5088866839496100bafad20ceaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 05:54:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

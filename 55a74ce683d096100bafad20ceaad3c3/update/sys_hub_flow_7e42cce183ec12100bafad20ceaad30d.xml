@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=259473000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>abbyy_integration</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛ABBYY API Record","reference":"x_1523132_claims_m_test","reference_display":"ABBYY API","type":"reference","base_type":"reference","usedInstances":{"812708ed-c498-4423-9efc-f3ee41878fb1":["t_projectclaims","abbyy"],"0642c2c0-9405-451a-b2a3-39aac43beb7c":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>069a965a83e812100bafad20ceaad3e6</master_snapshot>
+        <name>ABBYY Integration</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f69a1a5a83e812100bafad20ceaad315</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:11:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e42cce183ec12100bafad20ceaad30d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>ABBYY Integration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_hub_flow_7e42cce183ec12100bafad20ceaad30d</sys_update_name>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:52</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1523132_claims_m_test">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f69a1a5a83e812100bafad20ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:03</sys_updated_on>
+        <table>x_1523132_claims_m_test</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>7e42cce183ec12100bafad20ceaad30d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 13:15:51</sys_created_on>
+        <sys_id>0120eb5a836c52100bafad20ceaad3f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:51</sys_updated_on>
+        <trigger display_value="">f69a1a5a83e812100bafad20ceaad315</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN0120eb5a836c52100bafad20ceaad3f5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN9c7b034683a092100bafad20ceaad3b4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ABBYY Integration">7e42cce183ec12100bafad20ceaad30d</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 17:06:56</sys_created_on>
+        <sys_id>9c7b034683a092100bafad20ceaad3b4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:29:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c7b034683a092100bafad20ceaad3b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9c7b034683a092100bafad20ceaad3b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 17:06:56</sys_created_on>
+        <sys_id>107b034683a092100bafad20ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 17:06:56</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9c7b034683a092100bafad20ceaad3b4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 17:06:56</sys_created_on>
+        <sys_id>dc7b4f0283e092100bafad20ceaad350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:11:52</sys_updated_on>
+        <value>x_1523132_claims_m_test</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN7242cce183ec12100bafad20ceaad310"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7e42cce183ec12100bafad20ceaad30d</id>
+        <name>ABBYY Integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:11:09</sys_created_on>
+        <sys_id>7242cce183ec12100bafad20ceaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 13:11:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7242cce183ec12100bafad20ceaad310"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN02483e06832c52100bafad20ceaad3e4,4e48760a832c52100bafad20ceaad39a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABBYY Integration">7e42cce183ec12100bafad20ceaad30d</model>
+        <model_id>7e42cce183ec12100bafad20ceaad30d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:43:13</sys_created_on>
+        <sys_id>02483e06832c52100bafad20ceaad3e4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:29:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02483e06832c52100bafad20ceaad3e4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABBYY Integration">7e42cce183ec12100bafad20ceaad30d</model>
+        <model_id>7e42cce183ec12100bafad20ceaad30d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:43:13</sys_created_on>
+        <sys_id>4e48760a832c52100bafad20ceaad39a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:29:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4e48760a832c52100bafad20ceaad39a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN4b436f5e83ac52100bafad20ceaad369"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ABBYY Vantage Integration">63e77e46832c52100bafad20ceaad3b2</action_type>
+        <action_type_parent display_value="ABBYY Vantage Integration">82b74461836052100bafad20ceaad363</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABBYY Integration">7e42cce183ec12100bafad20ceaad30d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 13:29:38</sys_created_on>
+        <sys_id>4b436f5e83ac52100bafad20ceaad369</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-13 05:42:58</sys_updated_on>
+        <ui_id>40541d78-9c11-43fe-9c37-9ef478f58f88</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b436f5e83ac52100bafad20ceaad369"/>
+    <sys_element_mapping action="delete_multiple" query="id=4b436f5e83ac52100bafad20ceaad369"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>abbyy</field>
+        <id>4b436f5e83ac52100bafad20ceaad369</id>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 13:29:38</sys_created_on>
+        <sys_id>87436f5e83ac52100bafad20ceaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:29:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_63e77e46832c52100bafad20ceaad3b2</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4b436f5e83ac52100bafad20ceaad369"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b436f5e83ac52100bafad20ceaad369"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d^sys_idNOT INc248760a832c52100bafad20ceaad39d,ca48760a832c52100bafad20ceaad399"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:43:13</sys_created_on>
+        <sys_id>c248760a832c52100bafad20ceaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:43:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:43:13</sys_created_on>
+        <sys_id>ca48760a832c52100bafad20ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:43:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7e42cce183ec12100bafad20ceaad30d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>abbyy_integration</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛ABBYY API Record","reference":"x_1523132_claims_m_test","reference_display":"ABBYY API","type":"reference","base_type":"reference","usedInstances":{"812708ed-c498-4423-9efc-f3ee41878fb1":["t_projectclaims","abbyy"],"0642c2c0-9405-451a-b2a3-39aac43beb7c":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>ABBYY Integration</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="ABBYY Integration">7e42cce183ec12100bafad20ceaad30d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>069a965a83e812100bafad20ceaad3e6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=069a965a83e812100bafad20ceaad3e6^sys_idNOT INa69ad65a83e812100bafad20ceaad3af"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="ABBYY Integration">069a965a83e812100bafad20ceaad3e6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:02</sys_created_on>
+        <sys_id>a69ad65a83e812100bafad20ceaad3af</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:51</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a69ad65a83e812100bafad20ceaad3af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a69ad65a83e812100bafad20ceaad3af</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:02</sys_created_on>
+        <sys_id>a29ad65a83e812100bafad20ceaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:02</sys_updated_on>
+        <value>x_1523132_claims_m_test</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a69ad65a83e812100bafad20ceaad3af</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:02</sys_created_on>
+        <sys_id>ea9ad65a83e812100bafad20ceaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:02</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=069a965a83e812100bafad20ceaad3e6^sys_idNOT INc69a965a83e812100bafad20ceaad3e7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>069a965a83e812100bafad20ceaad3e6</id>
+        <name>ABBYY Integration</name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:00</sys_created_on>
+        <sys_id>c69a965a83e812100bafad20ceaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c69a965a83e812100bafad20ceaad3e7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=069a965a83e812100bafad20ceaad3e6^sys_idNOT IN4e9a965a83e812100bafad20ceaad3e8,969ad65a83e812100bafad20ceaad369"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABBYY Integration">069a965a83e812100bafad20ceaad3e6</model>
+        <model_id>069a965a83e812100bafad20ceaad3e6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:00</sys_created_on>
+        <sys_id>4e9a965a83e812100bafad20ceaad3e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4e9a965a83e812100bafad20ceaad3e8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="ABBYY Integration">069a965a83e812100bafad20ceaad3e6</model>
+        <model_id>069a965a83e812100bafad20ceaad3e6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:01</sys_created_on>
+        <sys_id>969ad65a83e812100bafad20ceaad369</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=969ad65a83e812100bafad20ceaad369"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=069a965a83e812100bafad20ceaad3e6^sys_idNOT IN229ad65a83e812100bafad20ceaad3ae"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="ABBYY Vantage Integration">63e77e46832c52100bafad20ceaad3b2</action_type>
+        <action_type_parent display_value="ABBYY Vantage Integration">82b74461836052100bafad20ceaad363</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ABBYY Integration">069a965a83e812100bafad20ceaad3e6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:02</sys_created_on>
+        <sys_id>229ad65a83e812100bafad20ceaad3ae</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:47</sys_updated_on>
+        <ui_id>812708ed-c498-4423-9efc-f3ee41878fb1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=229ad65a83e812100bafad20ceaad3ae"/>
+    <sys_element_mapping action="delete_multiple" query="id=229ad65a83e812100bafad20ceaad3ae"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>abbyy</field>
+        <id>229ad65a83e812100bafad20ceaad3ae</id>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:02</sys_created_on>
+        <sys_id>e29ad65a83e812100bafad20ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_63e77e46832c52100bafad20ceaad3b2</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=229ad65a83e812100bafad20ceaad3ae"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=229ad65a83e812100bafad20ceaad3ae"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=069a965a83e812100bafad20ceaad3e6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6^sys_idNOT IN1e9ad65a83e812100bafad20ceaad365,d29ad65a83e812100bafad20ceaad37a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:01</sys_created_on>
+        <sys_id>1e9ad65a83e812100bafad20ceaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:01</sys_created_on>
+        <sys_id>d29ad65a83e812100bafad20ceaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:12:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_069a965a83e812100bafad20ceaad3e6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_069a965a83e812100bafad20ceaad3e6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_069a965a83e812100bafad20ceaad3e6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7e42cce183ec12100bafad20ceaad30d</sys_id>
+        <latest_snapshot>069a965a83e812100bafad20ceaad3e6</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7e42cce183ec12100bafad20ceaad30d^sys_idNOT IN3a9a1a5a83e812100bafad20ceaad317"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3a9a1a5a83e812100bafad20ceaad317","name":"plan","plan_signature":null}}</plan>
+        <plan_id>7e42cce183ec12100bafad20ceaad30d</plan_id>
+        <snapshot>5c1283a6832096100bafad20ceaad316</snapshot>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:12:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a9a1a5a83e812100bafad20ceaad317</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 13:15:51</sys_updated_on>
+        <trigger display_value="">f69a1a5a83e812100bafad20ceaad315</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7e42cce183ec12100bafad20ceaad30d"/>
+</record_update>

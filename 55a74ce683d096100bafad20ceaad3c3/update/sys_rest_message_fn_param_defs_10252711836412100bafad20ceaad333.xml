@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>skillId</name>
+        <order>100</order>
+        <rest_message_function display_value="Start Transaction">aac39755836012100bafad20ceaad3ca</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 11:07:29</sys_created_on>
+        <sys_id>10252711836412100bafad20ceaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>skillId</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_10252711836412100bafad20ceaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 11:07:29</sys_updated_on>
+        <value>43184cde-a9d9-4d2e-b43c-c2fee33e91bc</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>

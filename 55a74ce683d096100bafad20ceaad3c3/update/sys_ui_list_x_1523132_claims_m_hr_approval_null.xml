@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1523132_claims_m_hr_approval" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_date</element>
+            <list_id display_value="x_1523132_claims_m_hr_approval" element="NULL" name="x_1523132_claims_m_hr_approval" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">587a7bc78314d6500bafad20ceaad3b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_id>a07a330f8314d6500bafad20ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_status</element>
+            <list_id display_value="x_1523132_claims_m_hr_approval" element="NULL" name="x_1523132_claims_m_hr_approval" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">587a7bc78314d6500bafad20ceaad3b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_id>a47a330f8314d6500bafad20ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rejection_comments</element>
+            <list_id display_value="x_1523132_claims_m_hr_approval" element="NULL" name="x_1523132_claims_m_hr_approval" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">587a7bc78314d6500bafad20ceaad3b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_id>a87a330f8314d6500bafad20ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reviewer_id</element>
+            <list_id display_value="x_1523132_claims_m_hr_approval" element="NULL" name="x_1523132_claims_m_hr_approval" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">587a7bc78314d6500bafad20ceaad3b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_id>ac7a330f8314d6500bafad20ceaad3f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reviewer_notes</element>
+            <list_id display_value="x_1523132_claims_m_hr_approval" element="NULL" name="x_1523132_claims_m_hr_approval" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">587a7bc78314d6500bafad20ceaad3b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_id>a07a330f8314d6500bafad20ceaad3fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1523132_claims_m_hr_approval</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>HR0001</sys_created_by>
+            <sys_created_on>2024-09-02 12:50:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>587a7bc78314d6500bafad20ceaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_claims_m_hr_approval</sys_name>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_ui_list_x_1523132_claims_m_hr_approval_null</sys_update_name>
+            <sys_updated_by>HR0001</sys_updated_by>
+            <sys_updated_on>2024-09-02 12:50:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

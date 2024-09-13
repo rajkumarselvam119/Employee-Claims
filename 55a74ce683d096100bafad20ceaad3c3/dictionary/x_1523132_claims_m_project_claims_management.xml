@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f13f44ae831896100bafad20ceaad351" label="Project Claims Management" max_length="40" name="x_1523132_claims_m_project_claims_management" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Project Code" max_length="255" name="project_code" type="string"/>
+        <element label="Employee Name" max_length="256" name="employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Start Date" max_length="40" name="project_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Project End Date" max_length="40" name="project_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Code" max_length="255" name="project_name" type="string"/>
+        <element label="Employee Id" max_length="256" name="employee_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Project Manager" max_length="32" name="project_manager" reference="imp_user" type="reference"/>
+        <index name="index">
+            <element name="project_manager"/>
+        </index>
+    </element>
+</database>

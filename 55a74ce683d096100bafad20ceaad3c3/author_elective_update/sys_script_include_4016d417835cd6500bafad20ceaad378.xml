@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1523132_claims_m.DynamicDropdownLookup</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DynamicDropdownLookup</name>
+        <script><![CDATA[var ProjectCodeLookup = Class.create();
+ProjectCodeLookup.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+   getProjectCode: function() {
+       // Fetch parameters passed from the client script
+       var employeeId = this.getParameter('Employee Id');  // 'Employee_Id' field from the form
+       var employeeName = this.getParameter('Employee Name');  // 'Employee_Name' field from the form
+       var projectCode = '';
+       // Create a GlideRecord instance to query the Project_Codes table
+       var gr = new GlideRecord('x_1523132_claims_m_project_claims_management'); // Replace 'project_codes' with your actual table name
+       gr.addQuery('employee_id', employeeId);  // Replace 'employee_id' with the actual column name in Project_Codes table
+       gr.addQuery('employee_name', employeeName);  // Replace 'employee_name' with the actual column name in Project_Codes table
+       gr.query();
+       if (gr.next()) {
+           projectCode = gr.getValue('project_code'); // Replace 'project_code' with the column name for the Project Code in Project_Codes table
+       }
+       return projectCode; // Return the Project Code found
+   }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 15:03:31</sys_created_on>
+        <sys_id>4016d417835cd6500bafad20ceaad378</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DynamicDropdownLookup</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_script_include_4016d417835cd6500bafad20ceaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 15:25:27</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_script_include_4016d417835cd6500bafad20ceaad378</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1523132_claims_m.DynamicDropdownLookup&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;DynamicDropdownLookup&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ProjectCodeLookup = Class.create();
+ProjectCodeLookup.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+   getProjectCode: function() {
+       // Fetch parameters passed from the client script
+       var employeeId = this.getParameter('Employee Id');  // 'Employee_Id' field from the form
+       var employeeName = this.getParameter('Employee Name');  // 'Employee_Name' field from the form
+       var projectCode = '';
+       // Create a GlideRecord instance to query the Project_Codes table
+       var gr = new GlideRecord('x_1523132_claims_m_project_claims_management'); // Replace 'project_codes' with your actual table name
+       gr.addQuery('employee_id', employeeId);  // Replace 'employee_id' with the actual column name in Project_Codes table
+       gr.addQuery('employee_name', employeeName);  // Replace 'employee_name' with the actual column name in Project_Codes table
+       gr.query();
+       if (gr.next()) {
+           projectCode = gr.getValue('project_code'); // Replace 'project_code' with the column name for the Project Code in Project_Codes table
+       }
+       return projectCode; // Return the Project Code found
+   }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-02 15:03:31&lt;/sys_created_on&gt;&lt;sys_id&gt;4016d417835cd6500bafad20ceaad378&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;DynamicDropdownLookup&lt;/sys_name&gt;&lt;sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Claims Management System - Raj"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4016d417835cd6500bafad20ceaad378&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-02 15:25:27&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-622639169</payload_hash>
+        <record_name>DynamicDropdownLookup</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 15:25:27</sys_created_on>
+        <sys_id>02ed949b839cd6500bafad20ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b35749880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 15:25:27</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>86ed949b259cd6505cc81e341ba79213</update_guid>
+        <update_guid_history>86ed949b259cd6505cc81e341ba79213:-622639169,05e8141b355cd65090f9e6b17dad36a8:-748310330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 09:30:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3e55f329cb9f45109c075e6e81dfc100</sys_id>
+        <sys_metadata>4016d417835cd6500bafad20ceaad378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DynamicDropdownLookup</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_script_include_4016d417835cd6500bafad20ceaad378</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4016d417835cd6500bafad20ceaad378">02ed949b839cd6500bafad20ceaad314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:30:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

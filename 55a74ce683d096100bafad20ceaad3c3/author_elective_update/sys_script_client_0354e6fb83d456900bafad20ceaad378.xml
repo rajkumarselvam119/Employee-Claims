@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>PopulateUserDetails</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var username = g_user.userName();
+    var gr = new GlideRecord('sys_user');
+    gr.addQuery('name', username);
+    gr.query();
+    //var mail = gr.getValue('email');
+    var phone = gr.getValue('mobile_phone');
+    //var uname = gr.getValue('user_name');
+    //g_form.setValue('email', mail);
+    g_form.setValue('contact_number', phone);
+    //g_form.setValue('employee_id', uname);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:31:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0354e6fb83d456900bafad20ceaad378</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>PopulateUserDetails</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_script_client_0354e6fb83d456900bafad20ceaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:27:47</sys_updated_on>
+        <table>x_1523132_claims_m_employee_claims</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_script_client_0354e6fb83d456900bafad20ceaad378</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;PopulateUserDetails&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var username = g_user.userName();
+    var gr = new GlideRecord('sys_user');
+    gr.addQuery('name', username);
+    gr.query();
+    //var mail = gr.getValue('email');
+    var phone = gr.getValue('mobile_phone');
+    //var uname = gr.getValue('user_name');
+    //g_form.setValue('email', mail);
+    g_form.setValue('contact_number', phone);
+    //g_form.setValue('employee_id', uname);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-04 14:31:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0354e6fb83d456900bafad20ceaad378&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;PopulateUserDetails&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claims Management System - Raj"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0354e6fb83d456900bafad20ceaad378&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-05 09:27:47&lt;/sys_updated_on&gt;&lt;table&gt;x_1523132_claims_m_employee_claims&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2001436777</payload_hash>
+        <record_name>PopulateUserDetails</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 09:27:47</sys_created_on>
+        <sys_id>bfc8a2c88324da900bafad20ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191c182e7d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:27:47</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>77c8a2c8a624da90c4426a8bf41fb1c4</update_guid>
+        <update_guid_history>77c8a2c8a624da90c4426a8bf41fb1c4:-2001436777,92982e88a624da90d47667ea0fc48a52:1128336087,0048a6482e24da903ca454f6651e8142:-1304133611,df3726401624da90026d8f94919479bb:-874536171,2bf56ec420e0da90219bb3e667af1301:1014658037,e9452e3fcdd45690165dad5990515cf9:-1520166377,fda4263fc7d45690dad19e6ebf74831d:1045982775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 09:30:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0523613c749248cc82e0dfc9056ba3a4</sys_id>
+        <sys_metadata>0354e6fb83d456900bafad20ceaad378</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PopulateUserDetails</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="Employee Claims">70d442ae83d05a100bafad20ceaad3f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_script_client_0354e6fb83d456900bafad20ceaad378</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0354e6fb83d456900bafad20ceaad378">bfc8a2c88324da900bafad20ceaad3c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:30:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

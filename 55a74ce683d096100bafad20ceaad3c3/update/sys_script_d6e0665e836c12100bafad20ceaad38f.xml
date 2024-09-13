@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1523132_claims_m_test</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1523132_claims_m_test">transaction_idISNOTEMPTY^EQ<item endquery="false" field="transaction_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Manual Review Link</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	(function() {
+	try {
+		var inputs = {};
+		inputs['t_projectclaims'] = new GlideRecord('x_1523132_claims_m_project_claims_management'); // GlideRecord of table: x_1523132_claims_m_project_claims_management 
+		inputs['abbyy'] = new GlideRecord('x_1523132_claims_m_test'); // GlideRecord of table: x_1523132_claims_m_test 
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		// sn_fd.FlowAPI.getRunner().action('x_1523132_claims_m.abbyy_vantage_integration').inBackground().withInputs(inputs).run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		var result = sn_fd.FlowAPI.getRunner().action('x_1523132_claims_m.abbyy_vantage_integration').inForeground().withInputs(inputs).run();
+		var outputs = result.getOutputs();
+
+		// Get Outputs:
+		// Note: outputs can only be retrieved when executing synchronously.
+		var manual_review_link = outputs['manual_review_link']; // URL
+		
+		current.manual_review_link = manual_review_link;
+		current.update();
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+	
+})();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 08:42:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6e0665e836c12100bafad20ceaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Manual Review Link</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_script_d6e0665e836c12100bafad20ceaad38f</sys_update_name>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 08:42:34</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6e0665e836c12100bafad20ceaad38f"/>
+</record_update>

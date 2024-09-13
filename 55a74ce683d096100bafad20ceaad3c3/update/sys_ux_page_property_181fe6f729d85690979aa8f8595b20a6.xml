@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Claim Management Approval">e41fe6f78ed856908d02b3d5a42b72b7</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>181fe6f729d85690979aa8f8595b20a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ux_page_property_181fe6f729d85690979aa8f8595b20a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:16:41</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1523132_claims_m.e41fe6f78ed856908d02b3d5a42b72b7.root.globalSearchDataConfigId</unique_name>
+        <value>601fe6f74fd856903da47839213e62ae</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=181fe6f729d85690979aa8f8595b20a6"/>
+</record_update>

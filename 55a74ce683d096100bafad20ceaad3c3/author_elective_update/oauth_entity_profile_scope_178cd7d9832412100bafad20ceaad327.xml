@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="ABBYY_Vantage_OAuth default_profile">d78cd7d9832412100bafad20ceaad324</oauth_entity_profile>
+        <oauth_entity_scope display_value="client_secret">142c9719832412100bafad20ceaad377</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:26:15</sys_created_on>
+        <sys_id>178cd7d9832412100bafad20ceaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d78cd7d9832412100bafad20ceaad324</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_178cd7d9832412100bafad20ceaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:26:15</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>oauth_entity_profile_scope_178cd7d9832412100bafad20ceaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="ABBYY_Vantage_OAuth default_profile">d78cd7d9832412100bafad20ceaad324</oauth_entity_profile><oauth_entity_scope display_value="client_secret">142c9719832412100bafad20ceaad377</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 10:26:15</sys_created_on><sys_id>178cd7d9832412100bafad20ceaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d78cd7d9832412100bafad20ceaad324</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>oauth_entity_profile_scope_178cd7d9832412100bafad20ceaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 10:26:15</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>-851132279</payload_hash>
+        <record_name>d78cd7d9832412100bafad20ceaad324</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:26:15</sys_created_on>
+        <sys_id>5b8cd7d9832412100bafad20ceaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d651dde60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:26:15</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>5f8cd7d92d24121067157ebf72d03328</update_guid>
+        <update_guid_history>5f8cd7d92d24121067157ebf72d03328:-851132279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ABBYY_Vantage_OAuth default_profile">94ced79d832412100bafad20ceaad37e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:35:52</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>2422cbe0203e44ee88f37bbfd9ede7c4</sys_id>
+        <sys_metadata>178cd7d9832412100bafad20ceaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d78cd7d9832412100bafad20ceaad324</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_178cd7d9832412100bafad20ceaad327</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_178cd7d9832412100bafad20ceaad327">5b8cd7d9832412100bafad20ceaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:35:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

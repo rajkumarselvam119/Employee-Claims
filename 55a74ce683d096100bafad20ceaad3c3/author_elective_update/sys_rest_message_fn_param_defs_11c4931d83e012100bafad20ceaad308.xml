@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="DELETE">
+        <name>grant_type</name>
+        <order>1</order>
+        <rest_message_function display_value="Get Token">aac39755836012100bafad20ceaad3ca</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 09:57:57</sys_created_on>
+        <sys_id>11c4931d83e012100bafad20ceaad308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>grant_type</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_11c4931d83e012100bafad20ceaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:04:09</sys_updated_on>
+        <value>client_credentials</value>
+    </sys_rest_message_fn_param_defs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_rest_message_fn_param_defs_11c4931d83e012100bafad20ceaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>grant_type</name><order>1</order><rest_message_function display_value="Get Token">aac39755836012100bafad20ceaad3ca</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 09:57:57</sys_created_on><sys_id>11c4931d83e012100bafad20ceaad308</sys_id><sys_mod_count>1</sys_mod_count><sys_name>grant_type</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_11c4931d83e012100bafad20ceaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 10:04:09</sys_updated_on><value>client_credentials</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+        <payload_hash>-1734373071</payload_hash>
+        <record_name>grant_type</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:04:09</sys_created_on>
+        <sys_id>fb77d391832412100bafad20ceaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d63da3ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:04:09</sys_updated_on>
+        <type>HTTP Query Parameters</type>
+        <update_guid>b377d3918e2412102da22ad9c153196f</update_guid>
+        <update_guid_history>b377d3918e2412102da22ad9c153196f:-1734373071,4d165b959de01210bbec791bc0349453:1362955817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:30:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_param_defs">sys_rest_message_fn_param_defs</sys_db_object>
+        <sys_id>5b411531a80b4882b3eb8420896655c4</sys_id>
+        <sys_metadata>11c4931d83e012100bafad20ceaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grant_type</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="Start Transaction">aac39755836012100bafad20ceaad3ca</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_param_defs_11c4931d83e012100bafad20ceaad308</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_param_defs_11c4931d83e012100bafad20ceaad308">fb77d391832412100bafad20ceaad36f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:30:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

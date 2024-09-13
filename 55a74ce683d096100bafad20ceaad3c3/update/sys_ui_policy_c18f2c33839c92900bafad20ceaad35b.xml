@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1523132_claims_m_employee_claims">category=LTA^EQ<item display_value="LTA" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="LTA"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+  g_form.setSectionDisplay('lta', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+       g_form.setSectionDisplay('lta', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Employee_Claims_LTA</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 06:00:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c18f2c33839c92900bafad20ceaad35b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Employee_Claims_LTA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ui_policy_c18f2c33839c92900bafad20ceaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:35:13</sys_updated_on>
+        <table>x_1523132_claims_m_employee_claims</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

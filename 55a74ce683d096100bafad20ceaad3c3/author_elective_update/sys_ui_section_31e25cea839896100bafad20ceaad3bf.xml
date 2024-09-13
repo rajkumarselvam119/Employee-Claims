@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Personal Details" section_id="31e25cea839896100bafad20ceaad3bf" sys_domain="global" table="x_1523132_claims_m_employee_claims" version="3" view="My_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>b60975a283dc1a100bafad20ceaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>3e0975a283dc1a100bafad20ceaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_code</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>b20975a283dc1a100bafad20ceaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>3a0975a283dc1a100bafad20ceaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>be0975a283dc1a100bafad20ceaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>360975a283dc1a100bafad20ceaad315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_no</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+            <sys_id>ba0975a283dc1a100bafad20ceaad315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Personal Details</caption>
+            <header>false</header>
+            <name>x_1523132_claims_m_employee_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 06:41:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e25cea839896100bafad20ceaad3bf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1523132_claims_m_employee_claims</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_ui_section_31e25cea839896100bafad20ceaad3bf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 14:08:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="My View" name="My_View">75e298ea839896100bafad20ceaad390</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_section_31e25cea839896100bafad20ceaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Personal Details" section_id="31e25cea839896100bafad20ceaad3bf" sys_domain="global" table="x_1523132_claims_m_employee_claims" version="3" view="My_View"><sys_ui_element action="INSERT_OR_UPDATE"><element>full_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>b60975a283dc1a100bafad20ceaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>employee_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>3e0975a283dc1a100bafad20ceaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>project_code</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>b20975a283dc1a100bafad20ceaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>3a0975a283dc1a100bafad20ceaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>document_date</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>be0975a283dc1a100bafad20ceaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>360975a283dc1a100bafad20ceaad315</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>contact_no</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 14:08:12</sys_created_on><sys_id>ba0975a283dc1a100bafad20ceaad315</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="75e298ea839896100bafad20ceaad390">31e25cea839896100bafad20ceaad3bf</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:12</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Personal Details</caption><header>false</header><name>x_1523132_claims_m_employee_claims</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 06:41:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31e25cea839896100bafad20ceaad3bf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1523132_claims_m_employee_claims</sys_name><sys_overrides/><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sys_ui_section_31e25cea839896100bafad20ceaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 14:08:11</sys_updated_on><sys_user/><title>false</title><view display_value="My View" name="My_View">75e298ea839896100bafad20ceaad390</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1890304681</payload_hash>
+        <record_name>Employee Claims</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 14:08:12</sys_created_on>
+        <sys_id>be0975a283dc1a100bafad20ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a8c3d79c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 14:08:12</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>760975a25bdc1a10de86f04e5e3af517</update_guid>
+        <update_guid_history>760975a25bdc1a10de86f04e5e3af517:-1890304681,b209f1a263dc1a103e2b18ab3ddd6d1b:1336491419,9f187d6ae19c1a10a2a46b1791c071b0:-554331500,b9e25cead1989610562e40dcc66aa3fa:1083487381</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 14:55:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>448881da51594cf895c26cde0c925804</sys_id>
+        <sys_metadata>31e25cea839896100bafad20ceaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Details</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="">038b84aa83d496100bafad20ceaad36b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_31e25cea839896100bafad20ceaad3bf</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_31e25cea839896100bafad20ceaad3bf">be0975a283dc1a100bafad20ceaad317</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 14:55:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

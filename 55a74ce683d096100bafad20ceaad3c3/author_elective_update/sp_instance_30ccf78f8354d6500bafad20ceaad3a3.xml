@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">b0ccf78f8354d6500bafad20ceaad393</sp_column>
+        <sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:00:38</sys_created_on>
+        <sys_id>30ccf78f8354d6500bafad20ceaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sp_instance_30ccf78f8354d6500bafad20ceaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:00:38</sys_updated_on>
+        <title>Login</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=30ccf78f8354d6500bafad20ceaad3a3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sp_instance_30ccf78f8354d6500bafad20ceaad3a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>0</order><roles/><short_description/><size>md</size><sp_column display_value="3">b0ccf78f8354d6500bafad20ceaad393</sp_column><sp_widget display_value="Login">6506d341cb33020000f8d856634c9cdc</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-02 13:00:38</sys_created_on><sys_id>30ccf78f8354d6500bafad20ceaad3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Login</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sp_instance_30ccf78f8354d6500bafad20ceaad3a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-02 13:00:38</sys_updated_on><title>Login</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=30ccf78f8354d6500bafad20ceaad3a3"/></record_update>]]></payload>
+        <payload_hash>2042471686</payload_hash>
+        <record_name>Login</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:00:38</sys_created_on>
+        <sys_id>f0ccf78f8354d6500bafad20ceaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b2d2b4bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:00:38</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>f4ccf78f1054d65006d3c06cbd0121a5</update_guid>
+        <update_guid_history>f4ccf78f1054d65006d3c06cbd0121a5:2042471686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Login">2b1ebb0b8394d6500bafad20ceaad31e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:06:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2e8902b90af9400e96ec52e3827a08c1</sys_id>
+        <sys_metadata>30ccf78f8354d6500bafad20ceaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sp_instance_30ccf78f8354d6500bafad20ceaad3a3</sys_update_name>
+        <sys_update_version display_value="sp_instance_30ccf78f8354d6500bafad20ceaad3a3">f0ccf78f8354d6500bafad20ceaad3a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:06:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

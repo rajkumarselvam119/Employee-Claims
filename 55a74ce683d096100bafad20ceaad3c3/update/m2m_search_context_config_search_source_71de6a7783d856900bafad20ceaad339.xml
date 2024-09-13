@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>500</order>
+        <search_context_config display_value="Claim Management Approvals - Workspace Search">32cea27720d85690edc907470b35eef6</search_context_config>
+        <source display_value="Claim Management Approvals - x_1523132_claims_m_pr">39de6a7783d856900bafad20ceaad321</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:15:39</sys_created_on>
+        <sys_id>71de6a7783d856900bafad20ceaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_71de6a7783d856900bafad20ceaad339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:15:39</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0d3098a6835896100bafad20ceaad3dc" label="Comments Claims Management" max_length="40" name="x_1523132_claims_m_comments_claims_management" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="4000" name="comment" type="string"/>
+        <element attributes="encode_utf8=false" label="Commenter ID" max_length="32" name="commenter_id" reference="imp_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comment Date" max_length="40" name="comment_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="commenter_id"/>
+        </index>
+    </element>
+</database>

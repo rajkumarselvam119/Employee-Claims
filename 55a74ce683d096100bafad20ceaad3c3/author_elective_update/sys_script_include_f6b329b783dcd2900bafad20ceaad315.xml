@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1523132_claims_m.UserLookup</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>UserLookup</name>
+        <script><![CDATA[var UserLookup = Class.create();
+UserLookup.prototype = {
+   initialize: function() {
+       // Initialization code if needed
+   },
+   getUserDetails: function(userId) {
+       var userDetails = {}; // Initialize an empty object to store user details
+       // Query the sys_user table to find a record that matches the user ID
+       var userGR = new GlideRecord('sys_user');
+       userGR.addQuery('sys_id', userId); // 'user_name' is the field for the User ID or Username
+       userGR.query();
+	   gs.info("hello");
+	   gs.info(userId);
+	   gs.info(userGR);
+       // If a matching record is found, extract the required details
+       if (userGR.next()) {
+           userDetails.name = userGR.getValue('name'); // Fetch the First Name
+           userDetails.email = userGR.getValue('email');     
+           // Add more fields here if needed
+       }
+       // Return the details as a JSON string
+       return JSON.stringify(userDetails);
+   },
+   type: 'UserLookup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 09:58:05</sys_created_on>
+        <sys_id>f6b329b783dcd2900bafad20ceaad315</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>UserLookup</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_script_include_f6b329b783dcd2900bafad20ceaad315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:19:35</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_script_include_f6b329b783dcd2900bafad20ceaad315</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1523132_claims_m.UserLookup&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;UserLookup&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var UserLookup = Class.create();
+UserLookup.prototype = {
+   initialize: function() {
+       // Initialization code if needed
+   },
+   getUserDetails: function(userId) {
+       var userDetails = {}; // Initialize an empty object to store user details
+       // Query the sys_user table to find a record that matches the user ID
+       var userGR = new GlideRecord('sys_user');
+       userGR.addQuery('sys_id', userId); // 'user_name' is the field for the User ID or Username
+       userGR.query();
+	   gs.info("hello");
+	   gs.info(userId);
+	   gs.info(userGR);
+       // If a matching record is found, extract the required details
+       if (userGR.next()) {
+           userDetails.name = userGR.getValue('name'); // Fetch the First Name
+           userDetails.email = userGR.getValue('email');     
+           // Add more fields here if needed
+       }
+       // Return the details as a JSON string
+       return JSON.stringify(userDetails);
+   },
+   type: 'UserLookup'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-04 09:58:05&lt;/sys_created_on&gt;&lt;sys_id&gt;f6b329b783dcd2900bafad20ceaad315&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;UserLookup&lt;/sys_name&gt;&lt;sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Claims Management System - Raj"&gt;55a74ce683d096100bafad20ceaad3c3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f6b329b783dcd2900bafad20ceaad315&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-04 14:19:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-986438197</payload_hash>
+        <record_name>UserLookup</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:19:35</sys_created_on>
+        <sys_id>bc02e27b839456900bafad20ceaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bd67b4130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:19:35</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7402e27b7e9456901305f9cee01e6fa9</update_guid>
+        <update_guid_history>7402e27b7e9456901305f9cee01e6fa9:-986438197,c521e6bf60545690d7c3e4413bf9a703:1265452406,d680a6bf77545690f00c7c58ed6ff2fe:537614379,9e2c1273051456904a87ae5b34bf1cb0:160941071,48531ef700505690ca9107afe89e8556:1265167227,4fa21eb382505690b527e9c5635c4980:828201268,38e0d233c6105690f514bdeea0fcae29:347332883,662f82b76bdc1690b86eb7b41ef767ed:399038141,d6de82b709dc16904a204d1f8457fd43:-147397466,a25eb937d1581690a53ddaff1a8d3e61:-1843667968,b3fc357fb3181690869bb24ece361526:-1605069849,06faa5f70690169064f864c58dbafbf7:-913912850,0189697f5050169012c16f9c96f549db:438205536,e62621ffda101690f8596cba440af38b:1948760237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 09:30:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3730433b4436422aa0bab4e5f0607f64</sys_id>
+        <sys_metadata>f6b329b783dcd2900bafad20ceaad315</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserLookup</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_script_include_f6b329b783dcd2900bafad20ceaad315</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f6b329b783dcd2900bafad20ceaad315">bc02e27b839456900bafad20ceaad3a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 09:30:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

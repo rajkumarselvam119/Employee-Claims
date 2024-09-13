@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bab318df831cd6500bafad20ceaad379" label="Employee Project Codes" max_length="40" name="x_1523132_claims_m_employee_project_codes" type="collection">
+        <element label="Employee Name" max_length="256" name="employee_name" type="string"/>
+        <element label="Project Code" max_length="256" name="project_code" type="string"/>
+        <element label="Employee Id" max_length="256" name="employee_id" type="string"/>
+    </element>
+</database>

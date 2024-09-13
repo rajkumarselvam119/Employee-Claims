@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="00be00aa831896100bafad20ceaad387" label="Finance Approval" max_length="40" name="x_1523132_claims_m_finance_approval" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account Number" max_length="255" name="account_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Bank Name" max_length="255" name="bank_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="255" name="account_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Accountant ID" max_length="32" name="accountant_id" reference="imp_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="IFSC Code" max_length="255" name="ifsc_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Date" max_length="40" name="approval_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Comments" max_length="4000" name="approval_comments" type="string"/>
+        <index name="index">
+            <element name="accountant_id"/>
+        </index>
+    </element>
+</database>

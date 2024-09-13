@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 2" section_id="c3caceee83545a100bafad20ceaad34a" sys_domain="global" table="x_1523132_claims_m_employee_claims" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_1523132_claims_m_employee_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 15:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3caceee83545a100bafad20ceaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_claims_m_employee_claims</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_ui_section_c3caceee83545a100bafad20ceaad34a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 15:25:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_section_c3caceee83545a100bafad20ceaad34a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 2" section_id="c3caceee83545a100bafad20ceaad34a" sys_domain="global" table="x_1523132_claims_m_employee_claims" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 2</caption><header>false</header><name>x_1523132_claims_m_employee_claims</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 15:25:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c3caceee83545a100bafad20ceaad34a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_claims_m_employee_claims</sys_name><sys_overrides/><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sys_ui_section_c3caceee83545a100bafad20ceaad34a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 15:25:46</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1125745821</payload_hash>
+        <record_name>Employee Claims</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 15:25:47</sys_created_on>
+        <sys_id>dfca022283945a100bafad20ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a90ade700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 15:25:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>57ca0222e6945a10164aadc1c676343a</update_guid>
+        <update_guid_history>57ca0222e6945a10164aadc1c676343a:1125745821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 15:27:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0cf0d2370de7430282280f71ef441e04</sys_id>
+        <sys_metadata>c3caceee83545a100bafad20ceaad34a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 2</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="Employee Claims">70d442ae83d05a100bafad20ceaad3f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c3caceee83545a100bafad20ceaad34a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c3caceee83545a100bafad20ceaad34a">dfca022283945a100bafad20ceaad33a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 15:27:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

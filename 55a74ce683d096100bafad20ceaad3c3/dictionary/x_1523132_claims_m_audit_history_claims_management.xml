@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9acf80e2835896100bafad20ceaad37a" label="Audit History Claims Management" max_length="40" name="x_1523132_claims_m_audit_history_claims_management" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Action Date" max_length="40" name="action_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="details" type="string"/>
+        <element attributes="encode_utf8=false" label="Performed By" max_length="32" name="performed_by" reference="imp_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Action" max_length="255" name="action" type="string"/>
+        <index name="index">
+            <element name="performed_by"/>
+        </index>
+    </element>
+</database>

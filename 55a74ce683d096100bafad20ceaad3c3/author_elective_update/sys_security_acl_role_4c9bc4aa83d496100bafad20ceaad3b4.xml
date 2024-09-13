@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 06:09:52</sys_created_on>
+        <sys_id>4c9bc4aa83d496100bafad20ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_claims_m_employee_claims.x_1523132_claims_m.claim submitter</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_security_acl display_value="x_1523132_claims_m_employee_claims">0c9bc4aa83d496100bafad20ceaad3a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4c9bc4aa83d496100bafad20ceaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 06:09:52</sys_updated_on>
+        <sys_user_role display_value="x_1523132_claims_m.claim submitter" name="x_1523132_claims_m.claim submitter">79080466839496100bafad20ceaad370</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_security_acl_role_4c9bc4aa83d496100bafad20ceaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-31 06:09:52</sys_created_on><sys_id>4c9bc4aa83d496100bafad20ceaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1523132_claims_m_employee_claims.x_1523132_claims_m.claim submitter</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_security_acl display_value="x_1523132_claims_m_employee_claims">0c9bc4aa83d496100bafad20ceaad3a5</sys_security_acl><sys_update_name>sys_security_acl_role_4c9bc4aa83d496100bafad20ceaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-31 06:09:52</sys_updated_on><sys_user_role display_value="x_1523132_claims_m.claim submitter" name="x_1523132_claims_m.claim submitter">79080466839496100bafad20ceaad370</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>49828376</payload_hash>
+        <record_name>x_1523132_claims_m_employee_claims.x_1523132_claims_m.claim submitter</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 06:09:52</sys_created_on>
+        <sys_id>c49bc4aa83d496100bafad20ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191a70deaaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 06:09:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c89bc4aadbd49610a8611e88c35ac1b6</update_guid>
+        <update_guid_history>c89bc4aadbd49610a8611e88c35ac1b6:49828376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1523132_claims_m_employee_claims.x_1523132_claims_m.claim submitter">adf3ceea83d05a100bafad20ceaad305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 14:55:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>17e4dbbc1f0e40e0aeccde64d6318240</sys_id>
+        <sys_metadata>4c9bc4aa83d496100bafad20ceaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1523132_claims_m_employee_claims.x_1523132_claims_m.claim submitter</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="">0c9bc4aa83d496100bafad20ceaad3a5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4c9bc4aa83d496100bafad20ceaad3b4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4c9bc4aa83d496100bafad20ceaad3b4">c49bc4aa83d496100bafad20ceaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 14:55:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

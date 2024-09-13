@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f0d0ed6832812100bafad20ceaad3fd" label="ABBYY API" max_length="40" name="x_1523132_claims_m_test" type="collection">
+        <element label="Manual Review Link" max_length="4000" name="manual_review_link" type="url"/>
+        <element label="Company Address" max_length="40" name="company_address" type="string"/>
+        <element label="Company Email" max_length="40" name="company_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Integration Status" max_length="40" name="integration_status" type="string"/>
+        <element label="Utility Type" max_length="40" name="utility_type" type="string"/>
+        <element label="Transaction ID" max_length="40" name="transaction_id" type="string"/>
+        <element label="Document Sys ID" max_length="40" name="document_sys_id" read_only="true" type="string"/>
+        <element label="Document" max_length="40" name="document" type="file_attachment"/>
+    </element>
+</database>

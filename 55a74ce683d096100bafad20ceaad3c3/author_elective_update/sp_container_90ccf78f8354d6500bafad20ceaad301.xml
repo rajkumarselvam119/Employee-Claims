@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>homepage-quicklinks</class_name>
+        <container_class_name/>
+        <name>Employee Claims Clone - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="employee_claims_clone">c4cc7f4f8354d6500bafad20ceaad3c7</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:00:37</sys_created_on>
+        <sys_id>90ccf78f8354d6500bafad20ceaad301</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Employee Claims Clone - Container 2</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sp_container_90ccf78f8354d6500bafad20ceaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:09:46</sys_updated_on>
+        <title>Quick Links</title>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sp_container_90ccf78f8354d6500bafad20ceaad301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>homepage-quicklinks</class_name><container_class_name/><name>Employee Claims Clone - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="employee_claims_clone">c4cc7f4f8354d6500bafad20ceaad3c7</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-02 13:00:37</sys_created_on><sys_id>90ccf78f8354d6500bafad20ceaad301</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Employee Claims Clone - Container 2</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sp_container_90ccf78f8354d6500bafad20ceaad301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-02 13:09:46</sys_updated_on><title>Quick Links</title><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>350333420</payload_hash>
+        <record_name>Employee Claims Clone - Container 2</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:09:46</sys_created_on>
+        <sys_id>1edebb8f8394d6500bafad20ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191b2db0ea00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:09:46</sys_updated_on>
+        <type>Container</type>
+        <update_guid>1edebb8f3194d6503cc709bc1a6a5d31</update_guid>
+        <update_guid_history>1edebb8f3194d6503cc709bc1a6a5d31:350333420,10dc778f5f54d650f68fcd746b17f7bc:1616134923,18ccf78f7f54d65006fbe716559f3802:-1416863605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Claims Clone - Container 2">bbde378f8394d6500bafad20ceaad343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:09:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>3922813d73f147b29b04d86c510a8159</sys_id>
+        <sys_metadata>90ccf78f8354d6500bafad20ceaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Claims Clone - Container 2</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sp_container_90ccf78f8354d6500bafad20ceaad301</sys_update_name>
+        <sys_update_version display_value="sp_container_90ccf78f8354d6500bafad20ceaad301">1edebb8f8394d6500bafad20ceaad33e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:09:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

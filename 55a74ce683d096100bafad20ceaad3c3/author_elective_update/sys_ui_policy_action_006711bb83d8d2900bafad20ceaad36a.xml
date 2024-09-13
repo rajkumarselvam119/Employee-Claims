@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>total_amount_words</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 08:53:50</sys_created_on>
+        <sys_id>006711bb83d8d2900bafad20ceaad36a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>total_amount_words</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_006711bb83d8d2900bafad20ceaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 08:55:57</sys_updated_on>
+        <table>x_1523132_claims_m_employee_claims</table>
+        <ui_policy display_value="Employee_Claims_LTA">c18f2c33839c92900bafad20ceaad35b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=006711bb83d8d2900bafad20ceaad36a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</application>
+        <file_path/>
+        <instance_id>d24c8ce41bd9425032182f8dee4bcbf2</instance_id>
+        <instance_name>dev251117</instance_name>
+        <name>sys_ui_policy_action_006711bb83d8d2900bafad20ceaad36a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>total_amount_words</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 08:53:50</sys_created_on><sys_id>006711bb83d8d2900bafad20ceaad36a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>total_amount_words</sys_name><sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package><sys_policy/><sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope><sys_update_name>sys_ui_policy_action_006711bb83d8d2900bafad20ceaad36a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 08:55:57</sys_updated_on><table>x_1523132_claims_m_employee_claims</table><ui_policy display_value="Employee_Claims_LTA">c18f2c33839c92900bafad20ceaad35b</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=006711bb83d8d2900bafad20ceaad36a"/></record_update>]]></payload>
+        <payload_hash>1539563273</payload_hash>
+        <record_name>total_amount_words</record_name>
+        <reverted_from/>
+        <source>91a788a2839496100bafad20ceaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 08:55:57</sys_created_on>
+        <sys_id>44f7993f83d8d2900bafad20ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bc3f69220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 08:55:57</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0cf7993f95d8d29095b0fbfcac20e024</update_guid>
+        <update_guid_history>0cf7993f95d8d29095b0fbfcac20e024:1539563273,29b715bbced8d2900f0afcff06bdb49f:-1723558271,7c775d3b29d8d290dc1abce724fe115e:-1681419578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 08:56:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2707fb4fef1145429a70a850bfd12d51</sys_id>
+        <sys_metadata>006711bb83d8d2900bafad20ceaad36a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_amount_words</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_parent display_value="Employee_Claims_LTA">c18f2c33839c92900bafad20ceaad35b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_scope_delete display_value="">47a200dd433142189e52a9229a6cf810</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_006711bb83d8d2900bafad20ceaad36a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_006711bb83d8d2900bafad20ceaad36a">44f7993f83d8d2900bafad20ceaad325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 08:56:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

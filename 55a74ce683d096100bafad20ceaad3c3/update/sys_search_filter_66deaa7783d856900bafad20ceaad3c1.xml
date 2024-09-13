@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Project Claims Management">66deaa7783d856900bafad20ceaad3ae</ais_search_source>
+        <label>Project Claims Management</label>
+        <name>Project Claims Management</name>
+        <order>500</order>
+        <search_context_config display_value="Claim Management Approvals AI Search Configuration">f6cea277d0d85690fbbec5f71f1164f6</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:15:42</sys_created_on>
+        <sys_id>66deaa7783d856900bafad20ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Claims Management</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_search_filter_66deaa7783d856900bafad20ceaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:15:42</sys_updated_on>
+    </sys_search_filter>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>false</in_default_profile>
+        <name>scope</name>
+        <oauth_entity display_value="ABBYY_Vantage_OAuth2.0">2aced35d832412100bafad20ceaad354</oauth_entity>
+        <oauth_entity_scope>openid permissions global.wildcard</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 10:39:22</sys_created_on>
+        <sys_id>47ce1b9d832412100bafad20ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scope</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>oauth_entity_scope_47ce1b9d832412100bafad20ceaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 10:39:22</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>

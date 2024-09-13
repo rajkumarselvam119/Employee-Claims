@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Employee Claims">018fe93e83549e100bafad20ceaad371</sc_cat_item>
+        <sc_catalog display_value="Employee Claims">bafee53a83549e100bafad20ceaad367</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-01 08:10:32</sys_created_on>
+        <sys_id>9dc0f9f283949e100bafad20ceaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Claims.Employee Claims</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9dc0f9f283949e100bafad20ceaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-01 08:10:32</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

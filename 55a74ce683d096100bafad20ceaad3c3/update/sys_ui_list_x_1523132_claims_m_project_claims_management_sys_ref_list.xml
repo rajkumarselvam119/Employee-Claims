@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1523132_claims_m_project_claims_management" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="x_1523132_claims_m_project_claims_management" element="NULL" name="x_1523132_claims_m_project_claims_management" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">b179c26e83145a100bafad20ceaad3e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 15:19:57</sys_created_on>
+            <sys_id>b179026683545a100bafad20ceaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 15:19:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1523132_claims_m_project_claims_management</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 15:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b179c26e83145a100bafad20ceaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_claims_m_project_claims_management</sys_name>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_ui_list_x_1523132_claims_m_project_claims_management_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 15:19:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">df3bb362f832021008dd9cfea425ac28</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

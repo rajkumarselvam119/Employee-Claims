@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_results_from_abbyy</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Results from ABBYY</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-13 05:00:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a583e6e832c56100bafad20ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Results from ABBYY</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0a583e6e832c56100bafad20ceaad3b6</sys_update_name>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-13 05:00:27</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0a583e6e832c56100bafad20ceaad3b6"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0a583e6e832c56100bafad20ceaad3b6"/>
+</record_update>

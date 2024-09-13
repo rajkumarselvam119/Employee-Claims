@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1523132_claims_m_employee_claims">category=CASH^EQ<item display_value="CASH" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="CASH"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+g_form.setDisplay('Sub Category',false);
+g_form.setChoices('Sub Category',[]);
+g_form.setValue('Sub Category','');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+if(g_form.getValue("Category")==='CASH')
+{
+	g_form.setDisplay('Sub Category',true);
+	g_form.setChoices('Sub Category',[{value:'covid_vaccinations',label:'Covid Vaccinations'},{value:'gym',label:'Gym'},{value:'others',label:'Others'}]);
+}
+}]]></script_true>
+        <set_values/>
+        <short_description>Employee_Claims_Category_SubCategory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-31 15:57:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7deca6a83d45a100bafad20ceaad366</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Employee_Claims_Category_SubCategory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ui_policy_b7deca6a83d45a100bafad20ceaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-31 16:15:25</sys_updated_on>
+        <table>x_1523132_claims_m_employee_claims</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

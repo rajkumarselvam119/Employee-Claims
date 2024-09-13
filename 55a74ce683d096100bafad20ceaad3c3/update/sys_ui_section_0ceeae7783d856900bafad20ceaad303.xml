@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="LTA" section_id="0ceeae7783d856900bafad20ceaad303" sys_domain="global" table="x_1523132_claims_m_employee_claims" version="3" view="workspace-claim-management-approvals-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>place_visited</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>80eeae7783d856900bafad20ceaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_journey_from_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>88eeae7783d856900bafad20ceaad306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_journey_to_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>80eeae7783d856900bafad20ceaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>80eeae7783d856900bafad20ceaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mode_of_travel</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>88eeae7783d856900bafad20ceaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_amount_words</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>80eeae7783d856900bafad20ceaad309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_calculation</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_id>88eeae7783d856900bafad20ceaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="LTA" display_value="LTA" name="x_1523132_claims_m_employee_claims" sys_domain="global" view="36cea277d0d85690f118ac56f1d3a4f5">0ceeae7783d856900bafad20ceaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>LTA</caption>
+            <header>false</header>
+            <name>x_1523132_claims_m_employee_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-04 15:15:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ceeae7783d856900bafad20ceaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1523132_claims_m_employee_claims</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_ui_section_0ceeae7783d856900bafad20ceaad303</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-04 15:15:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Claim Management Approvals 0" name="workspace-claim-management-approvals-0">36cea277d0d85690f118ac56f1d3a4f5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

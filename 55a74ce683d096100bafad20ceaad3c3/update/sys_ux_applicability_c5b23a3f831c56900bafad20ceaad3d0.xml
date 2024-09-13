@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1523132_claims_m.Audience for list 82723a3f831c56900bafad20ceaad3cc</api_name>
+        <description>Audience for the list: HR Approvals for the Workspace: Claim Management Approval</description>
+        <name>Audience for list 82723a3f831c56900bafad20ceaad3cc</name>
+        <role_names/>
+        <roles>39080c2e835496100bafad20ceaad36f,86084866839496100bafad20ceaad3fc</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:32:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5b23a3f831c56900bafad20ceaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list 82723a3f831c56900bafad20ceaad3cc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ux_applicability_c5b23a3f831c56900bafad20ceaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:32:31</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

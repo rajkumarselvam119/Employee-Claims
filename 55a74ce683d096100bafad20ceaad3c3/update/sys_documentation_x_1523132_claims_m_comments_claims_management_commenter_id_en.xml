@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="commenter_id" label="Commenter ID" language="en" table="x_1523132_claims_m_comments_claims_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>commenter_id</element>
+            <help/>
+            <hint/>
+            <label>Commenter ID</label>
+            <language>en</language>
+            <name>x_1523132_claims_m_comments_claims_management</name>
+            <plural>Commenter IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-31 06:30:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Commenter ID</sys_name>
+            <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+            <sys_update_name>sys_documentation_x_1523132_claims_m_comments_claims_management_commenter_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-31 06:30:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

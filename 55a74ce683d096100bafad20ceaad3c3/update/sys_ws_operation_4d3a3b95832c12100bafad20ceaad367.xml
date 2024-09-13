@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Multipart</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+   // Initialize RESTMessageV2 for outbound request
+   var requestMessage = new sn_ws.RESTMessageV2();
+   // Set the HTTP method to POST (typically used for file uploads)
+   requestMessage.setHttpMethod('POST');
+   // Define the endpoint URL where the multipart request will be sent
+   requestMessage.setEndpoint('https://vantage-us.abbyy.com/api/publicapi/v1/transactions/launch');
+   // Set the Content-Type header to multipart/form-data
+   // Boundary string is used to separate parts in the body
+   var boundary = '----WebKitFormBoundary7MA4YWxkTrZu0gW';
+   requestMessage.setRequestHeader('Content-Type', 'multipart/form-data; boundary=' + boundary);
+   // Construct the multipart/form-data body
+   var body = '--' + boundary + '\r\n';
+   body += 'Content-Disposition: form-data; name="file"; filename="example.txt"\r\n';
+   body += 'Content-Type: text/plain\r\n\r\n';
+   body += 'This is the content of the file.\r\n'; // Content of the file
+   body += '--' + boundary + '--\r\n'; // End boundary to signal end of the multipart body
+   // Set the request body with the constructed multipart content
+   requestMessage.setRequestBody(body);
+   // Send the request to the specified endpoint
+   var responseMessage = requestMessage.execute();
+   // Process the response from the API call
+   var responseBody = responseMessage.getBody();
+   var responseCode = responseMessage.getStatusCode();
+   // Set the status and body of the response to be returned to the caller
+   response.setStatus(responseCode);
+   response.setBody(responseBody);
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1523132_claims_m/abbyy_vantage_multipart</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 12:39:52</sys_created_on>
+        <sys_id>4d3a3b95832c12100bafad20ceaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multipart</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sys_ws_operation_4d3a3b95832c12100bafad20ceaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 12:39:52</sys_updated_on>
+        <web_service_definition display_value="ABBYY Vantage Multipart">e459fb51832c12100bafad20ceaad301</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
