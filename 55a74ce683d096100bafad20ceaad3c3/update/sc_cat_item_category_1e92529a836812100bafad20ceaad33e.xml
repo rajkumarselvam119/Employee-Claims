@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="ABBYY Vantage Integration">3cbf021e832812100bafad20ceaad302</sc_cat_item>
+        <sc_category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-12 07:37:03</sys_created_on>
+        <sys_id>1e92529a836812100bafad20ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.ABBYY Vantage Integration</sys_name>
+        <sys_package display_value="Claims Management System - Raj" source="x_1523132_claims_m">55a74ce683d096100bafad20ceaad3c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>sc_cat_item_category_1e92529a836812100bafad20ceaad33e</sys_update_name>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-12 07:37:03</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

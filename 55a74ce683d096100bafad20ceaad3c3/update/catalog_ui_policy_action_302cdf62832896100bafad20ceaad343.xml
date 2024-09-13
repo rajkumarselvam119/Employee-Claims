@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ABBYY Vantage Integration">3cbf021e832812100bafad20ceaad302</catalog_item>
+        <catalog_variable>IO:029b93ae83e496100bafad20ceaad30c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Bhuvan</sys_created_by>
+        <sys_created_on>2024-09-13 07:36:51</sys_created_on>
+        <sys_id>302cdf62832896100bafad20ceaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start_transaction</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_302cdf62832896100bafad20ceaad343</sys_update_name>
+        <sys_updated_by>Bhuvan</sys_updated_by>
+        <sys_updated_on>2024-09-13 07:36:51</sys_updated_on>
+        <table/>
+        <ui_policy display_value="ABBYY Vantage Integration UI Policy">fefb1f22832896100bafad20ceaad391</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>Start_transaction</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=302cdf62832896100bafad20ceaad343"/>
+</record_update>
