@@ -11,23 +11,23 @@
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>Bhuvan</sys_created_by>
-        <sys_created_on>2024-09-13 07:36:51</sys_created_on>
-        <sys_id>302cdf62832896100bafad20ceaad343</sys_id>
+        <sys_created_on>2024-09-13 07:41:34</sys_created_on>
+        <sys_id>423d97aa832896100bafad20ceaad3ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Start_transaction</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_302cdf62832896100bafad20ceaad343</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_423d97aa832896100bafad20ceaad3ad</sys_update_name>
         <sys_updated_by>Bhuvan</sys_updated_by>
-        <sys_updated_on>2024-09-13 07:36:51</sys_updated_on>
+        <sys_updated_on>2024-09-13 07:41:34</sys_updated_on>
         <table/>
-        <ui_policy display_value="ABBYY Vantage Integration UI Policy">fefb1f22832896100bafad20ceaad391</ui_policy>
+        <ui_policy display_value="Make 'Start_transaction' visible depending on 'document'">dc1d57a6832896100bafad20ceaad304</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <variable>Start_transaction</variable>
         <variable_set/>
-        <visible>ignore</visible>
+        <visible>true</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=302cdf62832896100bafad20ceaad343"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=423d97aa832896100bafad20ceaad3ad"/>
 </record_update>

@@ -23,22 +23,22 @@
         <script_false><![CDATA[function onCondition() {}]]></script_false>
         <script_true><![CDATA[function onCondition() {}]]></script_true>
         <set_values/>
-        <short_description>ABBYY Vantage Integration UI Policy</short_description>
+        <short_description>Make 'Start_transaction' visible depending on 'document'</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>Bhuvan</sys_created_by>
-        <sys_created_on>2024-09-13 07:36:50</sys_created_on>
+        <sys_created_on>2024-09-13 07:41:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fefb1f22832896100bafad20ceaad391</sys_id>
+        <sys_id>dc1d57a6832896100bafad20ceaad304</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>ABBYY Vantage Integration UI Policy</sys_name>
+        <sys_name>Make 'Start_transaction' visible depending on 'document'</sys_name>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Claims Management System - Raj">55a74ce683d096100bafad20ceaad3c3</sys_scope>
-        <sys_update_name>catalog_ui_policy_fefb1f22832896100bafad20ceaad391</sys_update_name>
+        <sys_update_name>catalog_ui_policy_dc1d57a6832896100bafad20ceaad304</sys_update_name>
         <sys_updated_by>Bhuvan</sys_updated_by>
-        <sys_updated_on>2024-09-13 07:36:51</sys_updated_on>
+        <sys_updated_on>2024-09-13 07:41:34</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>
